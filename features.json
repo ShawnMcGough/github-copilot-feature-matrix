@@ -1,0 +1,294 @@
+[
+    {
+        "feature": "Code Completion",
+        "ides": {
+            "VSCode": {
+                "preview": {
+                    "version": "1.57",
+                    "date": "2021-06-29",
+                    "url": "https://github.blog/changelog/2021-06-29-github-copilot-technical-preview/"
+                },
+                "ga": {
+                    "version": "1.68",
+                    "date": "2022-06-29",
+                    "url": "https://docs.github.com/en/copilot"
+                }
+            },
+            "Visual Studio": {
+                "preview": {
+                    "version": "17.1",
+                    "date": "2022-03-29",
+                    "url": "https://github.blog/changelog/2022-03-29-github-copilot-for-visual-studio-2022/"
+                },
+                "ga": {
+                    "version": "17.13",
+                    "date": "2025-02-12",
+                    "url": "https://github.blog/changelog/2025-02-12-github-copilot-in-visual-studio-2022-version-17-13/"
+                }
+            },
+            "JetBrains": {
+                "preview": {
+                    "version": "2021.2",
+                    "date": "2021-10-29",
+                    "url": "https://github.blog/changelog/2021-10-29-github-copilot-for-jetbrains/"
+                },
+                "ga": {
+                    "version": "2024.3",
+                    "date": "2024-12-03",
+                    "url": "https://github.blog/changelog/2025-02-19-new-gpt-4o-copilot-code-completion-model-now-available-for-copilot-in-jetbrains-ides/"
+                }
+            },
+            "Xcode": {
+                "preview": {
+                    "version": "16.0",
+                    "date": "2024-10-29",
+                    "url": "https://github.blog/changelog/2024-10-29-github-copilot-code-completion-in-xcode-is-now-available-in-public-preview/"
+                },
+                "ga": {
+                    "version": "16.1",
+                    "date": "2025-07-15",
+                    "url": "https://docs.github.com/en/copilot"
+                }
+            },
+            "Vim/Neovim": {
+                "preview": {
+                    "version": "Vim 9.0 / Neovim 0.6",
+                    "date": "2021-10-27",
+                    "url": "https://github.blog/changelog/2021-10-27-github-copilot-neovim-plugin/"
+                },
+                "ga": {
+                    "version": "Vim 9.0 / Neovim 0.6",
+                    "date": "2022-08-27",
+                    "url": "https://docs.github.com/en/copilot"
+                }
+            },
+            "Eclipse": {
+                "preview": {
+                    "version": "2024-03",
+                    "date": "2025-02-12",
+                    "url": "https://github.blog/changelog/2025-02-12-github-copilot-for-eclipse-code-completion-now-in-public-preview/"
+                },
+                "ga": {
+                    "version": "2024-06",
+                    "date": "2025-03-11",
+                    "url": "https://github.blog/changelog/2025-03-11-code-completion-in-github-copilot-for-eclipse-is-now-generally-available/"
+                }
+            }
+        }
+    },
+    {
+        "feature": "Copilot Chat",
+        "ides": {
+            "VSCode": {
+                "preview": {
+                    "version": "1.79",
+                    "date": "2023-07-20",
+                    "url": "https://github.blog/changelog/2023-07-20-github-copilot-chat-beta-now-available-for-all-individuals/"
+                },
+                "ga": {
+                    "version": "1.82",
+                    "date": "2023-12-29",
+                    "url": "https://github.blog/changelog/2023-12-29-github-copilot-chat-now-generally-available-for-organizations-and-individuals/"
+                }
+            },
+            "Visual Studio": {
+                "preview": {
+                    "version": "17.13",
+                    "date": "2025-02-12",
+                    "url": "https://github.blog/changelog/2025-02-12-github-copilot-chat-preview-for-visual-studio/"
+                },
+                "ga": {
+                    "version": "17.14",
+                    "date": "2025-06-18",
+                    "url": "https://github.blog/changelog/2025-06-18-github-copilot-chat-ga-for-visual-studio/"
+                }
+            },
+            "JetBrains": {
+                "private_preview": {
+                    "version": "2023.2",
+                    "date": "2023-11-08",
+                    "url": "https://github.blog/changelog/2023-11-08-copilot-in-jetbrains-ides-chat-is-now-available-in-private-beta/"
+                },
+                "ga": {
+                    "version": "2024.3",
+                    "date": "2024-03-07",
+                    "url": "https://github.blog/changelog/2024-03-07-github-copilot-chat-general-availability-in-jetbrains-ide/"
+                }
+            },
+            "Xcode": {
+                "preview": {
+                    "version": "16.0",
+                    "date": "2025-02-13",
+                    "url": "https://github.blog/changelog/2025-02-13-github-copilot-for-xcode-chat-now-in-public-preview/"
+                },
+                "ga": {
+                    "version": "16.1",
+                    "date": "2025-03-11",
+                    "url": "https://github.blog/changelog/2025-03-11-github-copilot-for-xcode-chat-is-now-generally-available/"
+                }
+            },
+            "Vim/Neovim": {},
+            "Eclipse": {
+                "preview": {
+                    "version": "2024-03",
+                    "date": "2025-03-11",
+                    "url": "https://github.blog/changelog/2025-03-11-github-copilot-chat-for-eclipse-now-in-public-preview/"
+                },
+                "ga": {
+                    "version": "2024-06",
+                    "date": "2025-04-15",
+                    "url": "https://github.blog/changelog/2025-04-15-github-copilot-chat-for-eclipse-is-now-generally-available/"
+                }
+            }
+        }
+    },
+    {
+        "feature": "MCP Server Support",
+        "ides": {
+            "VSCode": {
+                "preview": {
+                    "version": "1.99",
+                    "date": "2025-03-13",
+                    "url": "https://github.blog/changelog/2025-03-13-copilot-mcp-vscode-preview/"
+                },
+                "ga": {
+                    "version": "1.102",
+                    "date": "2025-06-12",
+                    "url": "https://github.blog/changelog/2025-06-12-copilot-mcp-vscode-ga/"
+                }
+            },
+            "Visual Studio": {
+                "preview": {
+                    "version": "17.13",
+                    "date": "2025-02-14",
+                    "url": "https://github.blog/changelog/2025-02-14-copilot-mcp-visual-studio-preview/"
+                },
+                "ga": {
+                    "version": "17.14",
+                    "date": "2025-06-18",
+                    "url": "https://github.blog/changelog/2025-06-18-copilot-mcp-visual-studio-ga/"
+                }
+            },
+            "JetBrains": {
+                "preview": {
+                    "version": "2025.1",
+                    "date": "2025-03-25",
+                    "url": "https://github.blog/changelog/2025-03-25-copilot-mcp-jetbrains-preview/"
+                },
+                "ga": {
+                    "version": "2025.2",
+                    "date": "2025-07-30",
+                    "url": "https://github.blog/changelog/2025-07-30-copilot-mcp-jetbrains-ga/"
+                }
+            },
+            "Xcode": {},
+            "Vim/Neovim": {},
+            "Eclipse": {}
+        }
+    },
+    {
+        "feature": "Copilot Edits",
+        "ides": {
+            "VSCode": {
+                "preview": {
+                    "version": "1.95",
+                    "date": "2024-10-28",
+                    "url": "https://code.visualstudio.com/updates/v1_95"
+                },
+                "ga": {
+                    "version": "1.97",
+                    "date": "2025-02-01",
+                    "url": "https://code.visualstudio.com/updates/v1_97"
+                }
+            },
+            "Visual Studio": {
+                "preview": {
+                    "version": "17.13",
+                    "date": "2025-02-11",
+                    "url": "https://github.blog/changelog/2025-02-14-copilot-edits-visual-studio-preview/"
+                }
+            },
+            "JetBrains": {
+                "preview": {
+                    "version": "2025.1",
+                    "date": "2025-03-25",
+                    "url": "https://github.blog/changelog/2025-03-25-copilot-edits-jetbrains-preview/"
+                }
+            },
+            "Xcode": {},
+            "Vim/Neovim": {},
+            "Eclipse": {}
+        }
+    },
+    {
+        "feature": "Copilot Coding Agent",
+        "ides": {
+            "VSCode": {
+                "preview": {
+                    "version": "1.104",
+                    "date": "2025-06-12",
+                    "url": "https://github.blog/changelog/2025-06-12-copilot-coding-agent-vscode-preview/"
+                }
+            },
+            "Visual Studio": {
+                "preview": {
+                    "version": "17.14",
+                    "date": "2025-06-18",
+                    "url": "https://github.blog/changelog/2025-06-18-copilot-coding-agent-visual-studio-preview/"
+                }
+            },
+            "JetBrains": {
+                "preview": {
+                    "version": "2025.2",
+                    "date": "2025-07-30",
+                    "url": "https://github.blog/changelog/2025-07-30-copilot-coding-agent-jetbrains-preview/"
+                }
+            },
+            "Xcode": {
+                "preview": {
+                    "version": "16.1",
+                    "date": "2025-07-15",
+                    "url": "https://github.blog/changelog/2025-07-15-copilot-coding-agent-xcode-preview/"
+                }
+            },
+            "Vim/Neovim": {},
+            "Eclipse": {
+                "preview": {
+                    "version": "2025-06",
+                    "date": "2025-06-11",
+                    "url": "https://github.blog/changelog/2025-06-11-copilot-coding-agent-eclipse-preview/"
+                }
+            }
+        }
+    },
+    {
+        "feature": "Copilot Extensions",
+        "ides": {
+            "VSCode": {
+                "ga": {
+                    "version": "1.97",
+                    "date": "2025-02-19",
+                    "url": "https://github.blog/changelog/2025-02-19-announcing-the-general-availability-of-github-copilot-extensions/"
+                }
+
+            },
+            "Visual Studio": {
+                "ga": {
+                    "version": "1.97",
+                    "date": "2025-02-19",
+                    "url": "https://github.blog/changelog/2025-02-19-announcing-the-general-availability-of-github-copilot-extensions/"
+                }
+            },
+            "JetBrains": {
+                "ga": {
+                    "version": "2025.1",
+                    "date": "2025-02-19",
+                    "url": "https://github.blog/changelog/2025-02-19-announcing-the-general-availability-of-github-copilot-extensions/"
+                }
+            },
+            "Xcode": {},
+            "Vim/Neovim": {},
+            "Eclipse": {}
+        }
+    }
+]

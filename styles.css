@@ -1,0 +1,86 @@
+/* Color-coded cell styles */
+.supported {
+    background-color: #d4edda;
+    /* Green for GA */
+    text-align: center;
+}
+
+.preview {
+    background-color: #fff3cd;
+    /* Yellow for Preview */
+    text-align: center;
+}
+
+.private_preview {
+    background-color: #d1e7ff;
+    /* Blue for Private Preview */
+    text-align: center;
+}
+
+.na {
+    background-color: #e2e3e5;
+    /* Gray for Unsupported */
+    text-align: center;
+}
+
+/* Clickable cell styles */
+.clickable {
+    cursor: pointer;
+}
+
+.clickable:hover {
+    background-color: #f0f0f0;
+    /* Light gray hover effect */
+}
+
+/* Tooltip styles for list content */
+.tippy-box {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-width: 400px;
+    padding: 12px;
+    font-size: 14px;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tippy-box ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.tippy-box li {
+    margin-bottom: 4px;
+}
+
+.tippy-arrow {
+    color: white;
+}
+
+/* Table cell hover effect */
+td:hover {
+    cursor: pointer;
+}
+
+/* Ensure table is responsive */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+@media (max-width: 640px) {
+
+    th,
+    td {
+        font-size: 12px;
+        padding: 4px;
+    }
+}
